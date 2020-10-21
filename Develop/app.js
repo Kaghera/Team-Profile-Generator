@@ -123,7 +123,7 @@ function addHtml(member) {
             </div>
         </div>`
         }
-        console.log("adding team member");
+        console.log("Team member added");
         fs.appendFile("./output/team.html", data, function (err) {
             if (err) {
                 return reject(err);
