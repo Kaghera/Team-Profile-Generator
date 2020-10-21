@@ -10,6 +10,7 @@ class Intern extends Employee {
     getRole() {
         return "Intern";
     }
+    
     getSchool() {
         return this.school;
     }
